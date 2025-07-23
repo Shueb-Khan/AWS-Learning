@@ -1,6 +1,7 @@
 Welcome to my curated AWS learning roadmap, built to align with the AWS Solutions Architect Associate (SAA-C03) certification. Over the course of three months, I've explored key services and concepts that cloud engineers rely on to design, deploy, secure, and scale infrastructure on AWS. This repository breaks down my progress module-by-module—each section representing focused hands-on practice, written documentation, and conceptual understanding.
 
 📘 Module 1: Foundations of AWS
+
 ✅ Topics:
 
 What is Cloud Computing?
@@ -15,7 +16,9 @@ IAM Basics (Users, Groups, Roles, Policies)
 Understand AWS's core purpose and set up a secure account.
 
 🛠️ Module 2: Compute & Deployment
+
 ✅ Topics:
+
 EC2: Launch, configure, SSH into instances
 
 IAM roles for EC2
@@ -30,7 +33,9 @@ Intro to Auto Scaling
 Run virtual servers with access control and scaling.
 
 🗂️ Module 3: Storage Services
+
 ✅ Topics:
+
 Amazon S3: Buckets, upload/download, permissions
 
 Lifecycle Policies & Storage Classes
@@ -41,7 +46,9 @@ EBS vs EFS: Block vs file storage
 Handle data storage, backups, and access securely.
 
 🔗 Module 4: Networking Essentials
+
 ✅ Topics:
+
 Amazon VPC: Subnets, route tables, gateways
 
 Public vs Private Subnets
@@ -54,7 +61,9 @@ Elastic IPs & NAT Gateways
 Design secure, scalable network architectures.
 
 🔐 Module 5: IAM & Security Deep Dive
+
 ✅ Topics:
+
 Permission boundaries
 
 Policies (inline, managed, customer-managed)
@@ -67,7 +76,9 @@ Multi-Factor Authentication (MFA)
 Master secure access control—key for client work & compliance.
 
 📊 Module 6: Monitoring & Automation
+
 ✅ Topics:
+
 CloudWatch (logs, metrics, alarms)
 
 CloudTrail
@@ -80,7 +91,9 @@ CloudFormation (infrastructure as code)
 Track, automate, and respond to changes efficiently.
 
 🗄️ Module 7: Databases
+
 ✅ Topics:
+
 Amazon RDS (MySQL, PostgreSQL)
 
 Amazon DynamoDB
@@ -91,7 +104,9 @@ Backup, replication, failover
 Host and manage data for dynamic apps.
 
 💸 Module 8: Cost Optimization & Billing
+
 ✅ Topics:
+
 AWS Cost Explorer
 
 Pricing Calculator
