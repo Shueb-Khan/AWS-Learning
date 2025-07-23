@@ -1,1 +1,65 @@
 # AWS-Learning
+# 🛡️ AWS IAM Essentials
+
+## 🔑 What Is IAM?
+**Identity and Access Management (IAM)** is a service that helps you securely control access to AWS resources.
+
+---
+
+## 👥 IAM User Groups
+- **Purpose**: A way to manage permissions for multiple users.
+- **Benefits**:
+  - Assign policies to a group instead of each user.
+  - Easier to organize by job roles (e.g., Admins, Developers).
+
+### 🔧 Example:
+- Group: `Developers`
+  - Members: Alice, Bob
+  - Attached Policy: Full access to EC2
+
+---
+
+## 🧍 IAM Users
+- **Definition**: An individual identity with credentials.
+- **Used for**: Human access to AWS Console or CLI.
+- **Has**:
+  - Username
+  - Access key (for CLI/API)
+  - Password (for Console)
+
+### 🛠 Best Practice:
+Enable **MFA (Multi-Factor Authentication)** for increased security.
+
+---
+
+## 🎭 IAM Roles
+- **Definition**: A set of permissions that AWS services or users can assume temporarily.
+- **Used For**:
+  - EC2 accessing S3
+  - Cross-account access
+  - AWS services assuming permissions
+
+### 📌 Trust Relationship:
+Defines **who** can assume the role.
+
+---
+
+## 📜 IAM Policies
+- **Definition**: A JSON document that defines permissions.
+- **Attached To**:
+  - Users
+  - Groups
+  - Roles
+
+### ✍️ Example Policy:
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::my-bucket/*"
+    }
+  ]
+}
