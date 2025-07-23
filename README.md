@@ -1,63 +1,131 @@
-# 🛡️ AWS IAM Essentials
-## 🔑 What Is IAM?
-**Identity and Access Management (IAM)** is a service that helps you securely control access to AWS resources.
+Welcome to my curated AWS learning roadmap, built to align with the AWS Solutions Architect Associate (SAA-C03) certification. Over the course of three months, I've explored key services and concepts that cloud engineers rely on to design, deploy, secure, and scale infrastructure on AWS. This repository breaks down my progress module-by-module—each section representing focused hands-on practice, written documentation, and conceptual understanding.
 
----
+📘 Module 1: Foundations of AWS
+✅ Topics:
+What is Cloud Computing?
 
-## 👥 IAM User Groups
-- **Purpose**: A way to manage permissions for multiple users.
-- **Benefits**:
-  - Assign policies to a group instead of each user.
-  - Easier to organize by job roles (e.g., Admins, Developers).
+AWS Global Infrastructure (Regions, AZs, Edge Locations)
 
-### 🔧 Example:
-- Group: `Developers`
-  - Members: Alice, Bob
-  - Attached Policy: Full access to EC2
+AWS Free Tier exploration
 
----
+IAM Basics (Users, Groups, Roles, Policies)
 
-## 🧍 IAM Users
-- **Definition**: An individual identity with credentials.
-- **Used for**: Human access to AWS Console or CLI.
-- **Has**:
-  - Username
-  - Access key (for CLI/API)
-  - Password (for Console)
+📌 Goal:
+Understand AWS's core purpose and set up a secure account.
 
-### 🛠 Best Practice:
-Enable **MFA (Multi-Factor Authentication)** for increased security.
+🛠️ Module 2: Compute & Deployment
+✅ Topics:
+EC2: Launch, configure, SSH into instances
 
----
+IAM roles for EC2
 
-## 🎭 IAM Roles
-- **Definition**: A set of permissions that AWS services or users can assume temporarily.
-- **Used For**:
-  - EC2 accessing S3
-  - Cross-account access
-  - AWS services assuming permissions
+Security Groups & Key Pairs
 
-### 📌 Trust Relationship:
-Defines **who** can assume the role.
+Elastic Load Balancer (ELB)
 
----
+Intro to Auto Scaling
 
-## 📜 IAM Policies
-- **Definition**: A JSON document that defines permissions.
-- **Attached To**:
-  - Users
-  - Groups
-  - Roles
+📌 Goal:
+Run virtual servers with access control and scaling.
 
-### ✍️ Example Policy:
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::my-bucket/*"
-    }
-  ]
-}
+🗂️ Module 3: Storage Services
+✅ Topics:
+Amazon S3: Buckets, upload/download, permissions
+
+Lifecycle Policies & Storage Classes
+
+EBS vs EFS: Block vs file storage
+
+📌 Goal:
+Handle data storage, backups, and access securely.
+
+🔗 Module 4: Networking Essentials
+✅ Topics:
+Amazon VPC: Subnets, route tables, gateways
+
+Public vs Private Subnets
+
+Security Groups vs NACLs
+
+Elastic IPs & NAT Gateways
+
+📌 Goal:
+Design secure, scalable network architectures.
+
+🔐 Module 5: IAM & Security Deep Dive
+✅ Topics:
+Permission boundaries
+
+Policies (inline, managed, customer-managed)
+
+Cross-account access
+
+Multi-Factor Authentication (MFA)
+
+📌 Goal:
+Master secure access control—key for client work & compliance.
+
+📊 Module 6: Monitoring & Automation
+✅ Topics:
+CloudWatch (logs, metrics, alarms)
+
+CloudTrail
+
+AWS Config
+
+CloudFormation (infrastructure as code)
+
+📌 Goal:
+Track, automate, and respond to changes efficiently.
+
+🗄️ Module 7: Databases
+✅ Topics:
+Amazon RDS (MySQL, PostgreSQL)
+
+Amazon DynamoDB
+
+Backup, replication, failover
+
+📌 Goal:
+Host and manage data for dynamic apps.
+
+💸 Module 8: Cost Optimization & Billing
+✅ Topics:
+AWS Cost Explorer
+
+Pricing Calculator
+
+Trusted Advisor
+
+Reserved vs On-Demand Instances
+
+📌 Goal:
+Advise clients smartly and save money on deployments.
+
+
+├── 01-aws-fundamentals/
+│   ├── IAM-setup.md
+│   └── infrastructure-diagram.png
+├── 02-compute-deployment/
+│   ├── EC2-setup.md
+│   ├── Key-pair-guide.md
+│   └── deployment-diagram.png
+├── 03-storage-services/
+│   ├── S3-setup.md
+│   ├── EBS-vs-EFS.md
+├── 04-networking/
+│   ├── VPC-architecture.md
+│   ├── NAT-vs-IGW.md
+├── 05-iam-security/
+│   ├── MFA-guide.md
+│   └── IAM-policies.md
+├── 06-monitoring-automation/
+│   ├── CloudWatch-alarms.md
+│   └── CloudFormation-template.yml
+├── 07-databases/
+│   ├── RDS-setup.md
+│   └── DynamoDB-basics.md
+├── 08-cost-optimization/
+│   ├── CostExplorer.md
+│── └── Reserved-vs-OnDemand.md
+
