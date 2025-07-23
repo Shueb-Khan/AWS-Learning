@@ -101,6 +101,8 @@ Reserved vs On-Demand Instances
 
 📌 Goal:
 Advise clients smartly and save money on deployments.
+
+
 AWS-Learning-Journey/
 ├── 01-aws-fundamentals/
 │   ├── README.md
@@ -129,6 +131,5 @@ AWS-Learning-Journey/
 │   ├── CostExplorer.md
 │   └── Reserved-vs-OnDemand.md
 └── README.md
-
 
 
