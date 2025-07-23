@@ -2,6 +2,7 @@ Welcome to my curated AWS learning roadmap, built to align with the AWS Solution
 
 📘 Module 1: Foundations of AWS
 ✅ Topics:
+
 What is Cloud Computing?
 
 AWS Global Infrastructure (Regions, AZs, Edge Locations)
