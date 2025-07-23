@@ -103,39 +103,11 @@ Reserved vs On-Demand Instances
 Advise clients smartly and save money on deployments.
 
 
-├── 01-aws-fundamentals/
+├── 01-aws-fundamentals/                                                                                                                                          
+
 │   ├── README.md
+
 │   ├── IAM-setup.md
+
 │   └── infrastructure-diagram.png
-
-├── 02-compute-deployment/
-│   ├── EC2-setup.md
-│   ├── Key-pair-guide.md
-│   └── deployment-diagram.png
-
-├── 03-storage-services/
-│   ├── S3-setup.md
-│   ├── EBS-vs-EFS.md
-
-├── 04-networking/
-│   ├── VPC-architecture.md
-│   ├── NAT-vs-IGW.md
-
-├── 05-iam-security/
-│   ├── MFA-guide.md
-│   └── IAM-policies.md
-
-├── 06-monitoring-automation/
-│   ├── CloudWatch-alarms.md
-│   └── CloudFormation-template.yml
-
-├── 07-databases/
-│   ├── RDS-setup.md
-│   └── DynamoDB-basics.md
-
-├── 08-cost-optimization/
-│   ├── CostExplorer.md
-│   └── Reserved-vs-OnDemand.md
-
-
 
