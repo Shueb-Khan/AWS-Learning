@@ -1,6 +1,4 @@
-# AWS-Learning
 # 🛡️ AWS IAM Essentials
-
 ## 🔑 What Is IAM?
 **Identity and Access Management (IAM)** is a service that helps you securely control access to AWS resources.
 
