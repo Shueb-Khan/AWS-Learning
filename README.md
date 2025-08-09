@@ -29,6 +29,7 @@ Table of Contents
 
 14. Exam-Day Strategies
 
+
 1. Understand the Exam Blueprint
 Before you dive into studying, familiarize yourself with the high-level domains and their weightage. This helps you allocate study time proportionally.
 <img width="717" height="228" alt="image" src="https://github.com/user-attachments/assets/0c982bfa-f3f3-4ae7-9e92-fb44691fde36" />
