@@ -28,10 +28,9 @@ Table of Contents
 13. Recommended Study Resources
 
 14. Exam-Day Strategies
-15. gfhgh
+   
 
-
- 1. Understand the Exam Blueprint:
+(1) Understand the Exam Blueprint:
 Before you dive into studying, familiarize yourself with the high-level domains and their weightage. This helps you allocate study time proportionally.
 <img width="717" height="228" alt="image" src="https://github.com/user-attachments/assets/0c982bfa-f3f3-4ae7-9e92-fb44691fde36" />
 • Design Secure Architectures (30%): Focuses on IAM, encryption, and security best practices. This domain tests your ability to restrict access, secure workloads, and implement data protection.
