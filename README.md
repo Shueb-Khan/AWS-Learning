@@ -42,7 +42,7 @@ Before you dive into studying, familiarize yourself with the high-level domains 
 • Design Cost-Optimized Architectures (20%): Assesses cost-control strategies such as RI, Savings Plans, and lifecycle policies. You must balance performance with budget constraints and use AWS cost management tools.
 
 
-2. Build Your AWS Foundations
+(2) Build Your AWS Foundations: 
 Solidify your understanding of core cloud concepts before diving into services.
 
 2.1 Cloud Computing Models and AWS Global Infrastructure
@@ -55,7 +55,7 @@ Familiarize yourself with these services which you’ll encounter throughout the
 <img width="716" height="347" alt="image" src="https://github.com/user-attachments/assets/dc877c3b-aec1-4211-ae87-bf8e21ab8060" />
 
 
-3. Master Compute Services
+(3). Master Compute Services:
 Compute services provide the processing power for your applications. Understand when to use each.
 
 3.1 Amazon EC2
@@ -74,7 +74,8 @@ Compute services provide the processing power for your applications. Understand 
 • Amazon ECS & Fargate: Docker-based orchestration with EC2 or Fargate launch types. Fargate abstracts server management; ECS on EC2 provides full control.
 
 • Amazon EKS: Managed Kubernetes; decouple control plane management from your worker nodes. Integrates with IAM roles for pods and CloudWatch Container Insights.
-4. Explore Storage Services
+
+(4). Explore Storage Services:
 Storage services handle data persistence at scale. Know their use cases, durability, and cost structures.
 
 4.1 Amazon S3
@@ -97,7 +98,7 @@ Storage services handle data persistence at scale. Know their use cases, durabil
 • Storage Gateway: File, Volume, Tape gateways for on-prem to cloud integration. Caches hot data locally for low latency.
 
 
-5. Learn Networking & Content Delivery
+(5). Learn Networking & Content Delivery:
 Networking services provide secure connectivity and optimize data delivery.
 
 5.1 Amazon VPC
@@ -120,7 +121,7 @@ Networking services provide secure connectivity and optimize data delivery.
 • Direct Connect & VPN: Dedicated private connectivity and IPsec VPN for hybrid architectures.
 
 
-6. Delve into Database Services
+(6).  Delve into Database Services:
 Databases store structured, unstructured, and in-memory data. Understand each service’s models and scaling options.
 
 6.1 Amazon RDS & Aurora
@@ -137,7 +138,7 @@ Databases store structured, unstructured, and in-memory data. Understand each se
 
 • Neptune: Managed graph database for highly connected data; supports Gremlin and SPARQL.
 
-7. Strengthen Security & Identity Management
+(7).  Strengthen Security & Identity Management:
 Security is a fundamental pillar. Master IAM and security services to protect AWS environments.
 
 7.1 AWS IAM & Federation
