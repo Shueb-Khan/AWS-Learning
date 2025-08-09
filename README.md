@@ -215,7 +215,7 @@ Practice Exams & Quizzes • Tutorials Dojo practice questions – great for tim
 
 Community & Discussion • r/AWSCertifications on Reddit – peer advice and exam experiences • AWS re:Post – official Q&A on AWS topics • LinkedIn Learning – supplementary courses
 
-14. Exam-Day Strategies
+(14). Exam-Day Strategies
 Effective exam-taking techniques can make a difference on test day.
 
 1. Time Management • 130 minutes for 65 questions ⇒ ~2 minutes per question. • Flag difficult questions and return later to avoid getting stuck.
